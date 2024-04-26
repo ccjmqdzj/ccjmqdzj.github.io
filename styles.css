@@ -1,0 +1,151 @@
+/* styles.css */
+
+/* 全局样式 */
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f7f7f7;
+}
+
+/* 导航栏 */
+header {
+  background-color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  z-index: 100;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ff6b00; /* 可以根据你的喜好调整颜色 */
+}
+
+/* 主要内容区域 */
+section {
+  padding: 40px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact1{
+  width: 5000px;
+  height: 100px;
+  font-size: 24px;
+  text-align: center;  /*水平居中*/
+  line-height: 100px; /*垂直居中 值为heigth的值*/
+}
+
+.box1{
+  width: 5000px;
+  height: 100px;
+  font-size: 24px;
+  text-align: center;  /*水平居中*/
+  line-height: 100px; /*垂直居中 值为heigth的值*/
+}
+
+.about1{
+  font-size: 24px;
+  text-align: center;  /*水平居中*/
+  line-height: 100px; /*垂直居中 值为heigth的值*/
+}
+
+.about2{
+  font-size: 24px;
+  text-align: center;  /*水平居中*/
+  line-height: 50px; /*垂直居中 值为heigth的值*/
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+.image {
+  margin: 0 10px; /* 图片之间的空白 */
+}
+
+.product {
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+.all2{
+  grid-gap: 1px; /* 图片之间的间距 */
+  padding: 1px; /* 边框的内边距，也可以考虑给每个图片单独设置 */
+  box-sizing: border-box; /* 确保内边距不会影响元素的实际宽度 */
+}
+
+.cs1{
+  max-width: 50%; /* 图片宽度自适应 */
+  max-height: 50%; /* 图片高度自适应 */
+  display: block;
+  margin: 0 auto; /* 图片居中 */
+}
+
+.cs2{
+  max-width: 50%; /* 图片宽度自适应 */
+  max-height: 50%; /* 图片高度自适应 */
+  display: block;
+  margin: 0 auto; /* 图片居中 */
+}
+
+.cs3{
+  max-width: 50%; /* 图片宽度自适应 */
+  max-height: 50%; /* 图片高度自适应 */
+  display: block;
+  margin: 0 auto; /* 图片居中 */
+}
+
+.product h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.product p {
+  font-size: 14px;
+}
+
+/* 脚部 */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
+  nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .product img {
+    margin: 0 auto;
+  }
+}
+
+.product-image {
+  width: 200px;
+  height: 100px
+}
+
