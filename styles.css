@@ -89,23 +89,6 @@ section {
   grid-gap: 1px; /* 图片之间的间距 */
   padding: 1px; /* 边框的内边距，也可以考虑给每个图片单独设置 */
   box-sizing: border-box; /* 确保内边距不会影响元素的实际宽度 */
-}
-
-.cs1{
-  max-width: 50%; /* 图片宽度自适应 */
-  max-height: 50%; /* 图片高度自适应 */
-  display: block;
-  margin: 0 auto; /* 图片居中 */
-}
-
-.cs2{
-  max-width: 50%; /* 图片宽度自适应 */
-  max-height: 50%; /* 图片高度自适应 */
-  display: block;
-  margin: 0 auto; /* 图片居中 */
-}
-
-.cs3{
   max-width: 50%; /* 图片宽度自适应 */
   max-height: 50%; /* 图片高度自适应 */
   display: block;
